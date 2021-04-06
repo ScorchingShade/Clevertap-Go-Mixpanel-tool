@@ -128,8 +128,8 @@ func Init() bool {
 		log.Println("Mixpanel events file path is supported only with events")
 		return false
 	}
-	if *Region != "eu" && *Region != "in" && *Region != "sk" && *Region != "sg" {
-		log.Println("Region can be either eu, in, sk, or sg")
+	if *Region != "eu" && *Region != "in" && *Region != "sk" && *Region != "sg" && *Region != "us" {
+		log.Println("Region can be either eu, in, sk, us or sg")
 		return false
 	}
 	if *ImportService == "mparticle" && (*AWSSecretAccessKey == "" || *AWSAccessKeyID == "" || *S3Bucket == "" ||
