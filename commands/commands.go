@@ -13,7 +13,7 @@ import (
 
 	"fmt"
 
-	"github.com/ankit-arora/clevertap-data-upload/globals"
+	"github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool/globals"
 )
 
 // Command ...

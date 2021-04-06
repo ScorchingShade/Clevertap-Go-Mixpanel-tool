@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ankit-arora/clevertap-data-upload/globals"
+	"github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool/globals"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/aws/credentials"

@@ -2,8 +2,8 @@
 
 Installation:
 ```
-go get github.com/ankit-arora/clevertap-data-upload 
-go install github.com/ankit-arora/clevertap-data-upload
+go get github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool
+go install github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool
 ```
 
 Arguments:
@@ -34,13 +34,13 @@ Arguments:
 
 Example Events upload from CSV:
 ```
-clevertap-data-upload -csv="/Users/ankit/Documents/in.csv" -id="XXX-XXX-XXXX" -p="XXX-XXX-XXXX" -t="event" -evtName="Product Viewed"
+clevertap-data-upload -csv="/Users/ankush/Documents/in.csv" -id="XXX-XXX-XXXX" -p="XXX-XXX-XXXX" -t="event" -evtName="Product Viewed"
 
 ```
 
 Example Profiles upload from CSV:
 ```
-clevertap-data-upload -csv="/Users/ankit/Documents/in.csv" -id="XXX-XXX-XXXX" -p="XXX-XXX-XXXX"
+clevertap-data-upload -csv="/Users/ankush/Documents/in.csv" -id="XXX-XXX-XXXX" -p="XXX-XXX-XXXX"
 ```
 
 NOTE: For CSV uploads, you must include one of identity, objectId, FBID or GPID, in your data.  Email addresses can serve as an identity value, but the key must be identity.

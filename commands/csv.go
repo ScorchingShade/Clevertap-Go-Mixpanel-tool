@@ -9,7 +9,7 @@ import (
 
 	"strings"
 
-	"github.com/ankit-arora/clevertap-data-upload/globals"
+	"github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool/globals"
 )
 
 type csvLineInfo struct {

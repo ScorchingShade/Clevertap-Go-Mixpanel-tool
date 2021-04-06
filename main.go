@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/ankit-arora/clevertap-data-upload/commands"
-	"github.com/ankit-arora/clevertap-data-upload/globals"
+	"github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool/commands"
+	"github.com/ScorchingShade/Clevertap-Go-Mixpanel-tool/globals"
 )
 
 func main() {
