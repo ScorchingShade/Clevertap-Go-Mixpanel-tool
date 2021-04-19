@@ -38,7 +38,7 @@ var restrictedEvents = []string{
 
 var propertiesMap = map[string]string{
 	"name":          "Name",
-	"email":         "Email",
+	"$email":         "Email",
 	"gender":        "Gender",
 	"facebook_id":   "fbId",
 	"timezone":      "Timezone",
@@ -89,10 +89,10 @@ type mixpanelProfileRecordInfo struct {
 
 func (p *mixpanelProfileRecordInfo) convertToCTAPIFormat() ([]interface{}, error) {
 	records := make([]interface{}, 0)
-
+	
 	for _, r := range p.Results {
 		identity := r.DistinctID
-		if identity != "" {
+		if identity != ""{
 			record := make(map[string]interface{})
 			record["identity"] = identity
 			record["ts"] = time.Now().Unix()
